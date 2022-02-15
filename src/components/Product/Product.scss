@@ -1,0 +1,42 @@
+.product-list {
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    max-height: 450px;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+    > img {
+        max-width: 90px;
+        margin: 15px;
+    }
+}
+
+.product-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+}
+
+.product-numbers {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 30px 0px 5px;
+    justify-content: space-between;
+}
+
+.product-name {
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    margin: 20px 10px 0px 5px;
+}
+
+.quantity {
+    font-weight: bold;
+}
+
+.price {
+    color:rgb(45, 194, 45);
+    font-weight: bolder;
+}
